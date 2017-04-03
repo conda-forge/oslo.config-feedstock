@@ -11,6 +11,18 @@ Summary: The Oslo configuration API supports parsing command line arguments and 
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.config-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.config-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.config-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.config-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.config-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-config-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.config/badges/version.svg)](https://anaconda.org/conda-forge/oslo.config)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.config/badges/downloads.svg)](https://anaconda.org/conda-forge/oslo.config)
+
 Installing oslo.config
 ======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `oslo.config` available on your pl
 ```
 conda search oslo.config --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.config-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.config-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.config-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.config-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.config-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-config-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.config/badges/version.svg)](https://anaconda.org/conda-forge/oslo.config)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.config/badges/downloads.svg)](https://anaconda.org/conda-forge/oslo.config)
 
 
 Updating oslo.config-feedstock
