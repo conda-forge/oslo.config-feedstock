@@ -14,9 +14,9 @@ Summary: The Oslo configuration API supports parsing command line arguments and 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.config-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.config-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.config-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.config-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.config-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-config-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tmpz7krf3g2-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tmpz7krf3g2-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tmpz7krf3g2-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tmpz7krf3g2-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tmpz7krf3g2-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tmpz7krf3g2-feedstock/branch/master)
 
 Current release info
 ====================
