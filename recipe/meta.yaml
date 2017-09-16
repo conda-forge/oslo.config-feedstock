@@ -1,20 +1,21 @@
-{%set name = "oslo.config" %}
-{%set version = "3.23.0" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash = "de69c76832bdc1671a603ea1f9d862a34ce2b9d5f016494b3f9e71f47357b94c" %}
-{%set build = 0 %}
+{% set name = "oslo.config" %}
+{% set version = "4.12.0" %}
+{% set bundle = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "bd8d03c4b28f1aa115e6b094651fc51adbca686f22f45ed721d837a5a5a249dd" %}
+{% set build = 0 %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 
 build:
+  noarch: python
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
@@ -27,11 +28,12 @@ requirements:
   run:
     - python
     - debtcollector >=1.2.0
-    - netaddr !=0.7.16,>=0.7.13
+    - netaddr >=0.7.18
     - six >=1.9.0
     - stevedore >=1.20.0
-    - oslo.i18n >=2.1.0
+    - oslo.i18n >=3.15.3
     - rfc3986 >=0.3.1
+    - pyyaml >=3.10
 
 test:
   imports:
