@@ -1,8 +1,8 @@
 {% set name = "oslo.config" %}
-{% set version = "5.0.0" %}
+{% set version = "5.2.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "1247cfb21e81fed9ed047e7b12cdd874e9f0a5af5ac556791298bb6c3f4bc777" %}
+{% set hash = "0df7fb5ac4d10fa7f8e75221debac3926e1cb48f0ef2b9bd8b2e09bcba3cae7a" %}
 {% set build = 0 %}
 
 package:
@@ -29,7 +29,7 @@ requirements:
     - python
     - debtcollector >=1.2.0
     - netaddr >=0.7.18
-    - six >=1.9.0
+    - six >=1.10.0
     - stevedore >=1.20.0
     - oslo.i18n >=3.15.3
     - rfc3986 >=0.3.1
