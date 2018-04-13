@@ -4,6 +4,7 @@
 {% set hash_type = "sha256" %}
 {% set hash = "b65bef82f1f3c0a9b41c30e7f19ceeb3777ed2b834fee8d0714955e88ead70f9" %}
 
+
 package:
   name: {{ name }}
   version: {{ version }}
