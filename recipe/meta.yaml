@@ -1,8 +1,8 @@
 {% set name = "oslo.config" %}
-{% set version = "6.0.1" %}
+{% set version = "6.1.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "2a8f334189602e05cf895c383ffe21d99e973e3ccd581afa4d3b622b8bad2fa2" %}
+{% set hash = "8af1aa35a65775514d96ed7b03c7a5fdef13ba8a6533df542f68fe0d8c430ba3" %}
 
 package:
   name: {{ name }}
@@ -31,7 +31,7 @@ requirements:
     - stevedore >=1.20.0
     - oslo.i18n >=3.15.3
     - rfc3986 >=0.3.1
-    - pyyaml >=3.10
+    - pyyaml >=3.12
     - enum34 >=1.0.4  # [py2k]
 
 test:
