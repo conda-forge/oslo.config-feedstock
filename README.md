@@ -14,14 +14,16 @@ Summary: The Oslo configuration API supports parsing command line arguments and 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.config-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.config-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.config-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.config-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.config-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-config-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/oslo.config-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/oslo.config-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/oslo.config-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/oslo.config-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/oslo.config-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/oslo-config-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.config/badges/version.svg)](https://anaconda.org/conda-forge/oslo.config)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.config/badges/downloads.svg)](https://anaconda.org/conda-forge/oslo.config)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-oslo.config-green.svg)](https://anaconda.org/conda-forge/oslo.config) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/oslo.config.svg)](https://anaconda.org/conda-forge/oslo.config) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/oslo.config.svg)](https://anaconda.org/conda-forge/oslo.config) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/oslo.config.svg)](https://anaconda.org/conda-forge/oslo.config) |
 
 Installing oslo.config
 ======================
