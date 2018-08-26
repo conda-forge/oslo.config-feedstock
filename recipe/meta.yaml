@@ -1,8 +1,8 @@
 {% set name = "oslo.config" %}
-{% set version = "6.2.1" %}
+{% set version = "6.4.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "c989f7441e5eea658482276d2f34d3c9d77089f4f723076efc442211c3256743" %}
+{% set hash = "483f43fa7b0e54cb1000d56b4e56fb23169816e65061e7600ca8ccd4cafa45e3" %}
 
 package:
   name: {{ name }}
@@ -33,6 +33,7 @@ requirements:
     - rfc3986 >=0.3.1
     - pyyaml >=3.12
     - enum34 >=1.0.4  # [py2k]
+    - requests >=2.18.0
 
 test:
   imports:
