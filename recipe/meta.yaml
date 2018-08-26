@@ -33,6 +33,7 @@ requirements:
     - rfc3986 >=0.3.1
     - pyyaml >=3.12
     - enum34 >=1.0.4  # [py2k]
+    - requests >=2.18.0
 
 test:
   imports:
