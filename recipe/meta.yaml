@@ -16,23 +16,22 @@ source:
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - pbr >=2.0.0
 
   run:
-    - python
+    - python >=3.6
     - debtcollector >=1.2.0
     - netaddr >=0.7.18
-    - six >=1.10.0
     - stevedore >=1.20.0
     - oslo.i18n >=3.15.3
-    - rfc3986 >=0.3.1
+    - rfc3986 >=1.2.0
     - pyyaml >=3.12
-    - enum34 >=1.0.4  # [py2k]
     - requests >=2.18.0
 
 test:
@@ -44,7 +43,7 @@ test:
 about:
   home: http://docs.openstack.org/developer/oslo.config/
   license_file: LICENSE
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   summary: 'The Oslo configuration API supports parsing command line arguments and .ini style configuration files.'
   doc_url: http://docs.openstack.org/developer/oslo.config/
@@ -54,3 +53,4 @@ extra:
   recipe-maintainers:
     - pmlandwehr
     - anguslees
+    - tschoonj
