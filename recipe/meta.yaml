@@ -1,8 +1,8 @@
 {% set name = "oslo.config" %}
-{% set version = "6.10.0" %}
+{% set version = "8.2.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "98427e4a4c1d0530ed2954c3efe610fa8de377f4dfeabe7eb951d02508797408" %}
+{% set hash = "116ff3a7b98b0309b083af7906d99f8c6bea67df5ee03a85e2ac02700dd75d30" %}
 
 package:
   name: {{ name }}
