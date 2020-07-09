@@ -1,7 +1,6 @@
 {% set name = "oslo.config" %}
 {% set version = "6.10.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
 {% set hash = "98427e4a4c1d0530ed2954c3efe610fa8de377f4dfeabe7eb951d02508797408" %}
 
 package:
@@ -11,10 +10,10 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
