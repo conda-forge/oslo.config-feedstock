@@ -1,8 +1,7 @@
 {% set name = "oslo.config" %}
-{% set version = "8.2.0" %}
+{% set version = "8.3.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "116ff3a7b98b0309b083af7906d99f8c6bea67df5ee03a85e2ac02700dd75d30" %}
+{% set hash = "74e93053559c16cbce894c4897065f6d4199fcab7c6153fc8586499c7d7750b7" %}
 
 package:
   name: {{ name }}
@@ -11,7 +10,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   number: 0
@@ -45,7 +44,7 @@ about:
   license_file: LICENSE
   license: Apache-2.0
   license_family: Apache
-  summary: 'The Oslo configuration API supports parsing command line arguments and .ini style configuration files.'
+  summary: The Oslo configuration API supports parsing command line arguments and .ini style configuration files.
   doc_url: http://docs.openstack.org/developer/oslo.config/
   dev_url: http://git.openstack.org/cgit/openstack/oslo.config
 
