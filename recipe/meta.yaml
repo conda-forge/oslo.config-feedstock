@@ -18,12 +18,12 @@ build:
 
 requirements:
   build:
-    - python >=3.6
+    - python
     - pip
     - pbr >=2.0.0
 
   run:
-    - python >=3.6
+    - python
     - debtcollector >=1.2.0
     - netaddr >=0.7.18
     - stevedore >=1.20.0
