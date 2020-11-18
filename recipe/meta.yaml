@@ -1,7 +1,7 @@
 {% set name = "oslo.config" %}
-{% set version = "8.3.2" %}
+{% set version = "8.3.3" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "c214ab7b30946b7341248edc7ea000944163b460d395af99fd182598b82d5833" %}
+{% set hash = "829a6dac59be1880e7b3ae510a7e122a43ba4bfb1d90f59ccefc90d8549d82ad" %}
 
 package:
   name: {{ name }}
@@ -13,11 +13,11 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - pbr >=2.0.0
