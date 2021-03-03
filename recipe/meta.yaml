@@ -1,7 +1,7 @@
 {% set name = "oslo.config" %}
-{% set version = "8.4.0" %}
+{% set version = "8.5.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "537d62c581de2227aebfc4c71ee6fb455b853be920e0b30b65ebbe8d8128725c" %}
+{% set hash = "f50bb71439af4515bce3cf1c2b60d36da70c3cfbf5b1b7e3cd4c4cf868f2c3e9" %}
 
 package:
   name: {{ name }}
@@ -29,7 +29,7 @@ requirements:
     - stevedore >=1.20.0
     - oslo.i18n >=3.15.3
     - rfc3986 >=1.2.0
-    - pyyaml >=3.12
+    - pyyaml >=5.1
     - requests >=2.18.0
     - importlib_metadata >=1.7.0  # [py<38]
 
