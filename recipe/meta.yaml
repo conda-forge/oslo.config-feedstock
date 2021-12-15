@@ -38,6 +38,10 @@ test:
     - oslo_config
     - oslo_config.cfg
     - oslo_config.types
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://docs.openstack.org/developer/oslo.config/
