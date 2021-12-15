@@ -13,8 +13,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -38,6 +38,10 @@ test:
     - oslo_config
     - oslo_config.cfg
     - oslo_config.types
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://docs.openstack.org/developer/oslo.config/
@@ -50,6 +54,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - anguslees
     - tschoonj
