@@ -1,7 +1,7 @@
 {% set name = "oslo.config" %}
-{% set version = "8.7.1" %}
+{% set version = "8.8.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "a0c346d778cdc8870ab945e438bea251b5f45fae05d6d99dfe4953cca2277b60" %}
+{% set hash = "96933d3011dae15608a11616bfb00d947e22da3cb09b6ff37ddd7576abd4764c" %}
 
 package:
   name: {{ name }}
@@ -13,8 +13,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 2
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
