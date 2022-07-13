@@ -15,15 +15,16 @@ source:
 build:
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
+  noarch: python
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - pip
     - pbr >=2.0.0
 
   run:
-    - python
+    - python >=3.8
     - debtcollector >=1.2.0
     - netaddr >=0.7.18
     - stevedore >=1.20.0
@@ -31,7 +32,6 @@ requirements:
     - rfc3986 >=1.2.0
     - pyyaml >=5.1
     - requests >=2.18.0
-    - importlib_metadata >=1.7.0  # [py<38]
 
 test:
   imports:
