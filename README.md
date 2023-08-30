@@ -1,11 +1,11 @@
-About oslo.config
-=================
+About oslo.config-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.config-feedstock/blob/main/LICENSE.txt)
 
 Home: http://docs.openstack.org/developer/oslo.config/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.config-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Oslo configuration API supports parsing command line arguments and .ini style configuration files.
 
