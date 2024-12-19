@@ -13,19 +13,19 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
-    - python 3.9
+    - python {{ python_min }}
     - pip
     - setuptools
     - pbr >=2.0.0
 
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - debtcollector >=1.2.0
     - netaddr >=0.7.18
     - stevedore >=1.20.0
@@ -41,6 +41,7 @@ test:
     - oslo_config.types
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
