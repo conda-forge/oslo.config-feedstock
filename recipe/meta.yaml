@@ -1,7 +1,7 @@
 {% set name = "oslo.config" %}
-{% set version = "9.7.0" %}
+{% set version = "9.7.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "b371ebf3f9a63e92b81d5c72b84d2f96f40553532699c68e1c5cd8ca9eca088b" %}
+{% set hash = "5558b34bcc2b52f2208e80fcad955a4f7b2c41bb245b6451d43a621ad1263bbd" %}
 
 package:
   name: {{ name }}
@@ -9,11 +9,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/oslo_config-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
